@@ -32,7 +32,43 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.main-btn {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(32, 32, 238);
+  color: white;
+  border: none;
+  margin: 10px
+}
+
+.main-btn:hover {
+
+  background-color: white;
+  color: rgb(32, 32, 238)
+}
+
+/* .btns {
+  display: flex;
+  justify-content: space-between;
+
+} */
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
